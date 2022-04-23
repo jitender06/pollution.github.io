@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> air pollution</title>
+    <style>
+        :root{
+            --primary-color:#ff0099;
+            --para-color:#493240;
+            --gradient:linear-gradient(to right, #ff0099, #493240);
+            --highlight-color:#750046;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+      
+        .heading{
+            text-align:center;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+        .container{
+            padding: 20px 70px;
+        }
+        .para{
+            margin-top: 20px;
+            color:var(--para-color);
+            line-height: 24px;
+            text-align: justify;
+        }
+        .bg-image{
+            background: url(./images/bg-air-2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height:50vh;
+        }
+        .para-img{
+            float: right;
+            margin: 10px 15px;
+            width: 300px;
+        }
+        @media only screen and (max-width: 414px) {
+            .bg-image{
+                background-size: cover;
+                background-position: left;
+               
+            }
+            .container{
+            padding: 5px 50px;
+        }
+        .para-img{
+            width: 100%;
+            height: 100%;
+            margin:10px auto;
+        }
+
+        }
+
+        /* fooooottterrrrrr */
+
+        a{
+            text-decoration: none;
+            display: inline-block;
+            color:white;
+            font-size: 27px;
+            line-height: 1.5;
+            text-decoration: none;
+            
+        }
+        
+        .footer{
+            background-color: #3d4551;
+            color: #fff;
+            padding: 60px 0; 
+            /* height: 90vh; */
+
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+        }
+        #footer-heading{
+            text-align: center;
+            color: rgb(218, 213, 213);
+        }
+        .footer-link{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .footer-link a{
+          
+           box-shadow: inset 0 0 0 0 #54b3d6;
+           color: var(--primary-color);
+           padding: 4px 1.25rem;
+           margin: 5px -.25rem;
+           transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        }
+        .footer-link a:hover{
+            color: #fff;
+            box-shadow: inset 200px 0 0 0 var(--highlight-color);
+        }
+
+        button {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  background:var(--gradient) ;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}   
+
+
+       
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="bg-image"></div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- <h1 class="heading">AIR POLLUTION</h1><hr> -->
+            <img class="para-img" src="./images/air-pollution-2.jpg" alt="pollution">
+            <p class="para"> 
+                Smog makes breathing difficult, especially for children and older adults. Some cities that suffer from extreme smog issue air pollution warnings. The government of Hong Kong, for example, will warn people not to go outside or engage in <strong style="color: var(--highlight-color);">strenuous</strong> physical activity (such as running or swimming) when smog is very thick.
+                
+                
+                When air pollutants such as nitrogen oxide and sulfur dioxide mix with moisture, they change into acids. They then fall back to earth as acid rain. Wind often carries acid rain far from the pollution source. Pollutants produced by factories and power plants in Spain can fall as <strong style="color: var(--highlight-color);" >acid rain</strong> in Norway.
+                <br><br>
+                Acid rain can kill all the trees in a forest. It can also devastate lakes, streams, and other waterways. When lakes become acidic, fish can't survive. In Sweden, acid rain created thousands of <strong style="color: var(--highlight-color);" >“dead lakes,”</strong> where fish no longer live.
+                
+                Acid rain also wears away marble and other kinds of stone. It has erased the words on gravestones and damaged many historic buildings and monuments. The Taj Mahal, in Agra, India, was once gleaming white. Years of exposure to acid rain has left it pale.
+                <br><br>
+                Governments have tried to prevent acid rain by limiting the amount of pollutants released into the air. In Europe and North America, they have had some success, but acid rain remains a major problem in the developing world, especially Asia.  
+                
+                <strong style="color: var(--highlight-color);" >Greenhouse gases</strong>  are another source of air pollution. Greenhouse gases such as carbon dioxide and methane occur naturally in the atmosphere. In fact, they are necessary for life on Earth. They absorb sunlight reflected from Earth, preventing it from escaping into space. By trapping heat in the atmosphere, they keep Earth warm enough for people to live. This is called the <strong style="color: var(--highlight-color);" >greenhouse effect</strong>.
+                <br><br>
+                <img class="para-img" src="./images/air-pollution-4.jpg" style="float: left;" alt="pollution">
+                But human activities such as burning fossil fuels and destroying forests have increased the amount of greenhouse gases in the atmosphere. This has increased the greenhouse effect, and average temperatures across the globe are rising. The decade that began in the year 2000 was the warmest on record. This increase in worldwide average temperatures, caused in part by human activity, is called <strong style="color: var(--highlight-color);" >global warming.</strong>
+                
+                Global warming is causing ice sheets and glaciers to melt. The melting ice is causing sea levels to rise at a rate of 2 millimeters (0.09 inches) per year. The rising seas will eventually flood low-lying coastal regions. Entire nations, such as the islands of Maldives, are threatened by this climate change.
+                <br><br>
+                Global warming also contributes to the phenomenon of ocean acidification. Ocean acidification is the process of ocean waters absorbing more <strong style="color: var(--highlight-color);" >carbon dioxide</strong> from the atmosphere. Fewer organisms can survive in warmer, less salty waters. The ocean food web is threatened as plants and animals such as coral fail to adapt to more acidic oceans.
+                
+                Scientists have predicted that global warming will cause an increase in severe storms. It will also cause more droughts in some regions and more flooding in others.
+                
+                The change in average temperatures is already shrinking some habitats, the regions where plants and animals naturally live. Polar bears hunt seals from sea ice in the Arctic. The melting ice is forcing polar bears to travel farther to find food, and their numbers are shrinking.
+                <br><br>
+                People and governments can respond quickly and effectively to reduce air pollution. Chemicals called <strong style="color: var(--highlight-color);" >chlorofluorocarbons (CFCs) </strong> are a dangerous form of air pollution that governments worked to reduce in the 1980s and 1990s. CFCs are found in gases that cool refrigerators, in foam products, and in aerosol cans.
+                
+                CFCs damage the ozone layer, a region in Earth's upper atmosphere. The ozone layer protects Earth by absorbing much of the sun's harmful ultraviolet radiation. When people are exposed to more <strong style="color: var(--highlight-color);" >ultraviolet radiation,</strong> they are more likely to develop skin cancer, eye diseases, and other illnesses.
+                <br><br>
+                In the 1980s, scientists noticed that the ozone layer over Antarctica was thinning. This is often called the <strong style="color: var(--highlight-color);" >“ozone hole.”</strong>  No one lives permanently in Antarctica. But Australia, the home of more than 22 million people, lies at the edge of the hole. In the 1990s, the Australian government began an effort to warn people of the dangers of too much sun. Many countries, including the United States, now severely limit the production of CFCs.
+                <br><br>         
+                </p>
+                <button><span><a href="index-5.html">NEXT PAGE</a></span></button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h1 id="footer-heading" >LINKS OF ALL PAGES</h1>
+        <div class="footer-content">
+            <div class="footer-link" >
+                
+                <a href="index.html">page 1</a></button>
+                <a href="index-2.html">page 2</a>
+                <a href="index-3.html">page 3</a>
+                <a href="index-4.html">page 4</a>
+                <a href="index-5.html">page 5</a>
+                <a href="index-6.html">page 6</a>
+                <a href="index-7.html">page 7</a>
+                
+            </div>
+            <div class="footer-link">
+                <a href="index-8.html">page 8</a>
+                <a href="index-9.html">page 9</a>
+                <a href="index-10.html">page 10</a>
+                <a href="index-11.html">page 11</a>
+                <a href="index-12.html">page 12</a>
+                <a href="index-13.html">page 13</a>
+                <a href="index-14.html">page 14</a>
+
+            </div>
+            <div class="footer-link">
+                <a href="index-15.html">page 15</a>
+                <a href="index-16.html">page 16</a>
+                <a href="index-17.html">page 17</a>
+                <a href="index-18.html">page 18</a>
+                <a href="index-19.html">page 19</a>
+                <a href="index-20.html">page 20</a>
+                <a href="index-21.html">page 21</a>
+            </div>
+    
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

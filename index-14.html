@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOISE Spollution</title>
+    <style>
+        :root{
+            --primary-color:#ff0099;
+            --para-color:#493240;
+            --gradient:linear-gradient(to right, #ff0099, #493240);
+            --highlight-color:#750046;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        
+        .heading{
+            text-align:center;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+        .container{
+            padding: 20px 70px;
+        }
+        .para{
+            margin-top: 20px;
+            color:var(--para-color);
+            line-height: 24px;
+            text-align: justify;
+        }
+        .bg-image{
+            background: url(./images/noise-pollution-2-2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            height:50vh;
+        }
+        .para-img{
+            float: right;
+            margin: 10px 15px;
+            width: 300px;
+        }
+        @media only screen and (max-width: 414px) {
+            .bg-image{
+                background-size: cover;
+                background-position: left;
+               
+            }
+            .container{
+            padding: 5px 50px;
+        }
+        .para-img{
+            width: 100%;
+            height: 100%;
+            margin:10px auto;
+        }
+
+        }
+
+        /* fooooottterrrrrr */
+
+        a{
+            text-decoration: none;
+            display: inline-block;
+            color:white;
+            font-size: 27px;
+            line-height: 1.5;
+            text-decoration: none;
+            
+        }
+        
+        .footer{
+            background-color: #3d4551;
+            color: #fff;
+            padding: 60px 0; 
+            /* height: 90vh; */
+
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+        }
+        #footer-heading{
+            text-align: center;
+            color: rgb(218, 213, 213);
+        }
+        .footer-link{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .footer-link a{
+          
+           box-shadow: inset 0 0 0 0 #54b3d6;
+           color: var(--primary-color);
+           padding: 4px 1.25rem;
+           margin: 5px -.25rem;
+           transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        }
+        .footer-link a:hover{
+            color: #fff;
+            box-shadow: inset 200px 0 0 0 var(--highlight-color);
+        }
+        button {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  background:var(--gradient) ;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}   
+
+
+
+       
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="bg-image"></div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- <h1 class="heading">NOISE POLLUTION</h1><hr> -->
+            <img class="para-img" style="float: left;" src="./images/bg-noise-2.jpg" alt="pollution">
+            <p class="para"> 
+
+                Noise pollution is an invisible danger. It cannot be seen, but it is present nonetheless, both on land and under the sea. Noise pollution is considered to be any unwanted or disturbing sound that affects the health and well-being of humans and other organisms.                        
+                
+                Sound is measured in decibels. There are many sounds in the environment, from rustling leaves (20 to 30 decibels) to a thunderclap (120 decibels) to the wail of a siren (120 to 140 decibels). Sounds that reach 85 decibels or higher can harm a person's ears. Sound sources that exceed this threshold include familiar things, such as power lawn mowers (90 decibels), subway trains (90 to 115 decibels), and loud rock concerts (110 to 120 decibels).
+                
+                Noise pollution impacts millions of people on a daily basis. The most common health problem it causes is Noise Induced Hearing Loss (NIHL). Exposure to loud noise can also cause high blood pressure, heart disease, sleep disturbances, and stress. These health problems can affect all age groups, especially children. Many children who live near noisy airports or streets have been found to suffer from stress and other problems, such as impairments in memory, attention level, and reading skill.
+                <br><br>
+                Noise pollution also impacts the health and well-being of wildlife. Studies have shown that loud noises can cause caterpillars' dorsal vessels (the insect equivalent of a heart) to beat faster, and cause bluebirds to have fewer chicks. Animals use sound for a variety of reasons, including to navigate, find food, attract mates, and avoid predators. Noise pollution makes it difficult for them to accomplish these tasks, which affects their ability survive.
+                
+                Increasing noise is not only affecting animals on land, it is also a growing problem for those that live in the ocean. Ships, oil drills, sonar devices, and seismic tests have made the once tranquil marine environment loud and chaotic. Whales and dolphins are particularly impacted by noise pollution. These marine mammals rely on echolocation to communicate, navigate, feed, and find mates, and excess noise interferes with their ability to effectively echolocate.
+                <img class="para-img" src="./images/noise-pollution-2-1.jpg"  alt="pollution">
+                Some of the loudest underwater noise comes from naval sonar devices. Sonar, like echolocation, works by sending pulses of sound down into the depths of the ocean to bounce off an object and return an echo to the ship, which indicates a location for object. Sonar sounds can be as loud as 235 decibels and travel hundreds of miles under water, interfering with whale's ability to use echolocation. Research has shown that sonar can cause mass strandings of whales on beaches and alter the feeding behavior of endangered blue whales (Balaenoptera musculus). Environmental groups are urging the U.S. Navy to stop or reduce using sonar for military training.
+                <br><br>
+                Seismic surveys also produce loud blasts of sound within the ocean. Ships looking for deep-sea oil or gas deposits tow devices called air guns and shoot pulses of sound down to the ocean floor. The sound blasts can damage the ears of marine animals and cause serious injury. Scientists believe this noise may also be contributing to the altered behavior of whales. 
+                
+                Among those researching the effects of noise pollution is Michel Andre, a bioacoustics researcher in Spain who is recording ocean sounds using instruments called hydrophones. His project, LIDO (Listening to the Deep Ocean Environment), collects data at 22 different locations. Back in the lab, computers identify the sounds of human activities as well as 26 species of whales and dolphins. The analysis aims to determine the effects that underwater noise is having on these animals. Andre hopes his project will find ways to protect marine animals from the dangers of ocean noise                   
+                </p>
+                <button><span><a href="index-15.html">NEXT PAGE</a></span></button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h1 id="footer-heading" >LINKS OF ALL PAGES</h1>
+        <div class="footer-content">
+            <div class="footer-link" >
+                
+                <a href="index.html">page 1</a></button>
+                <a href="index-2.html">page 2</a>
+                <a href="index-3.html">page 3</a>
+                <a href="index-4.html">page 4</a>
+                <a href="index-5.html">page 5</a>
+                <a href="index-6.html">page 6</a>
+                <a href="index-7.html">page 7</a>
+                
+            </div>
+            <div class="footer-link">
+                <a href="index-8.html">page 8</a>
+                <a href="index-9.html">page 9</a>
+                <a href="index-10.html">page 10</a>
+                <a href="index-11.html">page 11</a>
+                <a href="index-12.html">page 12</a>
+                <a href="index-13.html">page 13</a>
+                <a href="index-14.html">page 14</a>
+
+            </div>
+            <div class="footer-link">
+                <a href="index-15.html">page 15</a>
+                <a href="index-16.html">page 16</a>
+                <a href="index-17.html">page 17</a>
+                <a href="index-18.html">page 18</a>
+                <a href="index-19.html">page 19</a>
+                <a href="index-20.html">page 20</a>
+                <a href="index-21.html">page 21</a>
+            </div>
+    
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

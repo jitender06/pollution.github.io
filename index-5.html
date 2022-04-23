@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pollution</title>
+    <style>
+        :root{
+            --primary-color:#ff0099;
+            --para-color:#493240;
+            --gradient:linear-gradient(to right, #ff0099, #493240);
+            --highlight-color:#750046;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        /* button{
+            border: none;
+           /*background: #ff0099;*/  
+             
+           /* padding: 12px 24px;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+
+        } */
+        .heading{
+            text-align:center;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+        h2{
+            margin-top: 25px;
+        }
+        .container{
+            padding: 20px 70px;
+        }
+        .para{
+            margin-top: 10px;
+            color:var(--para-color);
+            line-height: 24px;
+            text-align: justify;
+        }
+        .bg-image{
+            background: url(./images/bg-causes-air.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: cover;
+            height:50vh;
+        }
+        .para-img{
+            float: right;
+            margin: 10px 15px;
+            width: 300px;
+        }
+
+        @media only screen and (max-width: 414px) {
+            .bg-image{
+                background-size: cover;
+                background-position: left;
+               
+            }
+            .container{
+            padding: 5px 50px;
+        }
+        .para-img{
+            width: 100%;
+            height: 100%;
+            margin:10px auto;
+        }
+
+        }
+   
+
+/* fooooottterrrrrr */
+
+a{
+            text-decoration: none;
+            display: inline-block;
+            color:white;
+            font-size: 27px;
+            line-height: 1.5;
+            text-decoration: none;
+            
+        }
+        
+        .footer{
+            background-color: #3d4551;
+            color: #fff;
+            padding: 60px 0; 
+            /* height: 90vh; */
+
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+        }
+        #footer-heading{
+            text-align: center;
+            color: rgb(218, 213, 213);
+        }
+        .footer-link{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .footer-link a{
+          
+           box-shadow: inset 0 0 0 0 #54b3d6;
+           color: var(--primary-color);
+           padding: 4px 1.25rem;
+           margin: 5px -.25rem;
+           transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        }
+        .footer-link a:hover{
+            color: #fff;
+            box-shadow: inset 200px 0 0 0 var(--highlight-color);
+        }
+
+        button {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  background:var(--gradient) ;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}   
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="bg-image"></div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="heading">CAUSES OF AIR POLLUTIOIN</h1><hr>
+            <img class="para-img" src="./images/causes-air-3.jpg" style="width: 200px; float: right;" alt="pollution">
+            <div>
+                <br> <h2>1. The Burning of Fossil Fuels</h2>
+                <p class="para">Most of the air pollution takes place due to the burning of fossil fuels such as coal, oil, gasoline to produce energy for electricity or transportation. The release of carbon monoxide in high level indicates how much fossil fuel is burned. This also emits other <strong style="color: var(--highlight-color);" >toxic pollutants </strong> in the air. Inhaling air induced with pollutants due to the burning of natural gas and fossil fuel reduces heart's ability to pump enough oxygen causing one to suffer respiratory illness.
+                </p> <br>  
+            <h2>2. Industrial Emission <img class="para-img" src="./images/causes-air-4.jpg" style="float: left; width: 200px;" alt="pollution"></h2>
+            <p class="para">Industrial activities emit several pollutants in the air that affects the air quality more than we can even imagine. Particulate matter 2.5 and 10, Nitrogen dioxide, Sulfur dioxide, and carbon monoxide are key pollutants that are emitted from industries that use coal and wood as their primary energy source for production of their goods. <strong style="color: var(--highlight-color);" > Industrial pollution </strong>effects associated with your health can range from irritation in your eyes and throat to breathing issues, at times can even lead to chronic illness.</p>
+            <br>
+
+            <h2>3. Indoor Air Pollution <img class="para-img" src="./images/causes-air-5.webp" style="width: 250px; float: right;" alt="pollution"></h2>
+            <p class="para">
+            Use of toxic products also called as Volatile Organic Compounds (VOCs), inadequate ventilation, uneven temperature, and humidity level can cause indoor air pollution, whether you are in office, school or at your comfortable home. House air pollution can take place due to ignorant factors, for instance, smoking tobacco inside a room or leaving mold infected wall untreated. Use of wood stove or space heaters is capable to increase the <strong style="color: var(--highlight-color);" > humidity level</strong>  which can directly affect the health a person in no time.</p> <br>
+
+            <h2>4. Wildfires <img class="para-img" src="./images/causes-air-6.jpg" style="width: 200px; float:left;" alt="pollution"></h2>
+            <p class="para">
+            Climate change is not just increasing wildfire but also spiking air pollution. Burning stubble and farm residue is also a major contribution to wildfire. It causes increased PM2.5 in the air which collides with other harmful substances like <strong style="color: var(--highlight-color);" > chemical gas and pollen creating smog.</strong> Smog makes the air hazy and people find it difficult to breathe. </p> <br>
+
+            <h2>5. Transportation <img class="para-img" src="./images/causes-air-7.jpg" style="width: 200px; float: right;" alt="pollution"></h2>
+            <p class="para">
+            There is no denying that vehicle pollution is the major contributor to air pollution, especially in urban cities. When the car burns gasoline, it emits pollutants in the air which is as harmful as smoking 10 cigarettes a day. Your vehicle emits carbon monoxide, hydrocarbons, nitrogen oxide, and particulate matter. When the vehicle pollution is high in the atmosphere, it creates a hole in the ozone layer contributing to smog and causing various<strong style="color: var(--highlight-color);" > health issues.</strong> </p>
+            </p> <br>
+
+            <h2>6. Open Burning of Garbage Waste <img class="para-img" src="./images/causes-air-8.jpg" style="width: 200px; float: left;" alt="pollution"></h2> 
+            <p class="para">
+            Open burning of garbage is much more harmful to your health and the environment than one may think. As per Engage EPW, Delhi Air Pollution is choking public health. Delhi generates a whopping 9500 tons of waste every day, which makes it India's second waste dumping city. Exposure to open burning of garbage waste can pose serious health risk including cancer, liver issues, impairment of immune system, reproductive functions; can also affect the <strong style="color: var(--highlight-color);" >  developing nervous system.</strong> </p>
+
+            <div>
+
+               <button><span><a href="index-6.html">NEXT PAGE</a></span></button>
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h1 id="footer-heading" >LINKS OF ALL PAGES</h1>
+        <div class="footer-content">
+            <div class="footer-link" >
+                
+                <a href="index.html">page 1</a></button>
+                <a href="index-2.html">page 2</a>
+                <a href="index-3.html">page 3</a>
+                <a href="index-4.html">page 4</a>
+                <a href="index-5.html">page 5</a>
+                <a href="index-6.html">page 6</a>
+                <a href="index-7.html">page 7</a>
+                
+            </div>
+            <div class="footer-link">
+                <a href="index-8.html">page 8</a>
+                <a href="index-9.html">page 9</a>
+                <a href="index-10.html">page 10</a>
+                <a href="index-11.html">page 11</a>
+                <a href="index-12.html">page 12</a>
+                <a href="index-13.html">page 13</a>
+                <a href="index-14.html">page 14</a>
+
+            </div>
+            <div class="footer-link">
+                <a href="index-15.html">page 15</a>
+                <a href="index-16.html">page 16</a>
+                <a href="index-17.html">page 17</a>
+                <a href="index-18.html">page 18</a>
+                <a href="index-19.html">page 19</a>
+                <a href="index-20.html">page 20</a>
+                <a href="index-21.html">page 21</a>
+            </div>
+    
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

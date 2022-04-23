@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pollution</title>
+    <style>
+        :root{
+            --primary-color:#ff0099;
+            --para-color:#493240;
+            --gradient:linear-gradient(to right, #ff0099, #493240);
+            --highlight-color:#750046;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        /* button{
+            border: none;
+           /*background: #ff0099;*/  
+             
+           /* padding: 12px 24px;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+
+        } */
+        .heading{
+            text-align:center;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+        h2,h3,h4{
+            margin-top: 15px;
+        }
+        .container{
+            padding: 20px 70px;
+        }
+        .para,li{
+            margin-top: 10px;
+            color:var(--para-color);
+            line-height: 24px;
+            text-align: justify;
+        }
+        .bg-image{
+            background: url(./images/bg-precaution-3.jpg);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: cover;
+            height:50vh;
+        }
+        .para-img{
+            float: right;
+            margin: 10px 15px;
+            width: 300px;
+        
+        }
+
+        /* fooooottterrrrrr */
+
+        a{
+            text-decoration: none;
+            display: inline-block;
+            color:white;
+            font-size: 27px;
+            line-height: 1.5;
+            text-decoration: none;
+            
+        }
+        
+        .footer{
+            background-color: #3d4551;
+            color: #fff;
+            padding: 60px 0; 
+            /* height: 90vh; */
+
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+        }
+        #footer-heading{
+            text-align: center;
+            color: rgb(218, 213, 213);
+        }
+        .footer-link{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .footer-link a{
+          
+           box-shadow: inset 0 0 0 0 #54b3d6;
+           color: var(--primary-color);
+           padding: 4px 1.25rem;
+           margin: 5px -.25rem;
+           transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        }
+        .footer-link a:hover{
+            color: #fff;
+            box-shadow: inset 200px 0 0 0 var(--highlight-color);
+        }
+
+        /* button */
+
+       
+
+
+        button {
+  border-radius: 4px;
+  background:var(--gradient) ;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}   
+
+        /* foootterrrr end */
+
+
+
+
+        @media only screen and (max-width: 414px) {
+            .bg-image{
+                background-size: cover;
+                background-position: left;
+               
+            }
+            .container{
+            padding: 5px 50px;
+        }
+        .para-img{
+            width: 100%;
+            height: 100%;
+            margin:10px auto;
+        }
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="bg-image"></div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- <h1 class="heading">POLLUTION PREVENTION</h1><hr> -->
+            
+            <div>
+                <h2>Why not prevent pollution, rather than clean it up later?</h2>
+                <p class="para">  <img class="para-img" src="./images/precaution-2.jpg" alt="pollution">
+                    It makes a lot of sense! For years, environmental protection has focused on pollution control - cleaning up the pollution after it occurred--rather than on prevention. The control approach has serious drawbacks, including high costs and increased liability. And when we try to clean up pollution, sometimes we just end up moving the pollutant from one place to another, such as from the air to the land or from the land to water. One example is factories using filters to clean the air before releasing it to the environment. When the filters are periodically cleaned, the pollutants are collected and often sent to a landfill for disposal.
+                    </p>
+
+                    <h2>What are CT businesses doing? </h2>
+                    <p class="para">
+                        Many businesses, both large and small, are operated differently by thinking prevention rather than control. Pollution prevention practices can include changes in design, raw materials, production processes, and delivery of a product. These practices include:<br>
+
+                    </p>
+                    <ul>
+                        <li>Raw material substitution: switching to less hazardous materials </li>
+                        <li>Process modification: changing the production process to improve efficiency and reduce the use of toxic substances </li>
+                        <li>Equipment upgrade: installing more efficient equipment to reduce raw material consumption and produce less waste. </li>
+                        <li>Product redesign: reducing certain raw materials in products or packaging, or improving manufacturability. </li>
+                    </ul>
+                    <h2>What can be done at home or school?</h2>
+                    <p class="para">You may be practicing practicing pollution prevention at home without even realizing it! For example, if you use a plunger to unclog a sink instead of a toxic drain cleaner, conserve energy by hanging clothes on a line or use mulch in your garden to control weeds instead of chemical weed killer, you are practicing pollution prevention. Schools can employ organic land care techniques and improve indoor air quality by using green cleaners.</p>
+
+                        
+            </div>
+               <button><span><a href="index-19.html">NEXT PAGE</a></span></button>
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h1 id="footer-heading" >LINKS OF ALL PAGES</h1>
+        <div class="footer-content">
+            <div class="footer-link" >
+                
+                <a href="index.html">page 1</a></button>
+                <a href="index-2.html">page 2</a>
+                <a href="index-3.html">page 3</a>
+                <a href="index-4.html">page 4</a>
+                <a href="index-5.html">page 5</a>
+                <a href="index-6.html">page 6</a>
+                <a href="index-7.html">page 7</a>
+                
+            </div>
+            <div class="footer-link">
+                <a href="index-8.html">page 8</a>
+                <a href="index-9.html">page 9</a>
+                <a href="index-10.html">page 10</a>
+                <a href="index-11.html">page 11</a>
+                <a href="index-12.html">page 12</a>
+                <a href="index-13.html">page 13</a>
+                <a href="index-14.html">page 14</a>
+
+            </div>
+            <div class="footer-link">
+                <a href="index-15.html">page 15</a>
+                <a href="index-16.html">page 16</a>
+                <a href="index-17.html">page 17</a>
+                <a href="index-18.html">page 18</a>
+                <a href="index-19.html">page 19</a>
+                <a href="index-20.html">page 20</a>
+                <a href="index-21.html">page 21</a>
+            </div>
+    
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

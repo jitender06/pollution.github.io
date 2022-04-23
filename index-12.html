@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pollution</title>
+    <style>
+        :root{
+            --primary-color:#ff0099;
+            --para-color:#493240;
+            --gradient:linear-gradient(to right, #ff0099, #493240);
+            --highlight-color:#750046;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        /* button{
+            border: none;
+           /*background: #ff0099;*/  
+             
+           /* padding: 12px 24px;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+
+        } */
+        .heading{
+            text-align:center;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+        h2{
+            margin-top: 15px;
+        }
+        .container{
+            padding: 20px 70px;
+        }
+        .para{
+            margin-top: 10px;
+            color:var(--para-color);
+            line-height: 24px;
+            text-align: justify;
+        }
+        .bg-image{
+            background: url(./images/bg-causes-land.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height:50vh;
+        }
+        .para-img{
+            float: right;
+            margin: 10px 15px;
+            width: 300px;
+        }
+
+        @media only screen and (max-width: 414px) {
+            .bg-image{
+                background-size: cover;
+                background-position: left;
+               
+            }
+            .container{
+            padding: 5px 50px;
+        }
+        .para-img{
+            width: 100%;
+            height: 100%;
+            margin:10px 20px;
+        }
+
+        }
+
+
+/* fooooottterrrrrr */
+
+a{
+            text-decoration: none;
+            display: inline-block;
+            color:white;
+            font-size: 27px;
+            line-height: 1.5;
+            text-decoration: none;
+            
+        }
+        
+        .footer{
+            background-color: #3d4551;
+            color: #fff;
+            padding: 60px 0; 
+            /* height: 90vh; */
+
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+        }
+        #footer-heading{
+            text-align: center;
+            color: rgb(218, 213, 213);
+        }
+        .footer-link{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .footer-link a{
+          
+           box-shadow: inset 0 0 0 0 #54b3d6;
+           color: var(--primary-color);
+           padding: 4px 1.25rem;
+           margin: 5px -.25rem;
+           transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        }
+        .footer-link a:hover{
+            color: #fff;
+            box-shadow: inset 200px 0 0 0 var(--highlight-color);
+        }
+        button {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  background:var(--gradient) ;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}   
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="bg-image"></div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="heading">CAUSES OF LAND POLLUTION</h1><hr>
+            
+            <div>
+                <h2>1. Deforestation </h2>
+                <p class="para">
+                    In the Amazon rain forest in Brazil, an area the size of a football field is clear-cut by loggers every second .  The removal of plant cover not only eliminates wildlife habitats and food for wildlife, but it also degrades the soil by leaving it barren and without the roots of plants to hold it in place, vulnerable to erosion. 
+
+                    Obviously, a rain forest gets a lot of rain, heavy rain and without a forest canopy to buffer the downpours and without ground cover to hold the soil intact, the rich soil of the forest floor is easily washed away.  Along with the topsoil go the nutrients necessary to regenerate growth.
+                    <img class="para-img" src="./images/pollution.jpg" style="float: right; " alt="pollution">
+                    It is estimated that eighty percent of land animals and plants live in forests. Removal of even a portion of the canopy changes the environment of the forest as the canopy blocks the harmful sunlight and keeps in heat at night. Many species cannot adapt to these severe changes in temperature and many species do not survive the destruction of their habitats.
+                    
+                    Loggers are not the only ones responsible for the rapid deforestation of the earth.  Land developers capitalizing on urban sprawl cut down forests, as does the agricultural industry in order to increase the amount of land for growing crops. 
+
+                    In fact, agriculture has been found to be the direct cause if 80 percent of deforestation worldwide. Much of this agricultural land is required to grow crops for animal feed, primarily cattle for the beef industry. The land is also used for cattle grazing 
+                    </p>
+                    
+                    <h2>2. Agriculture</h2>
+                    <p class="para">The world population increase and increased demand for a food supply is causing forests and grasslands to be converted to farmland.  Natural vegetation has deep roots that hold the soil in its place.  Many of the replacement plants, like cotton, coffee, wheat and soybeans do not have deep roots and allow soil erosion.  This means that flooding is worsened as the land no longer has the ability to absorb excess rainfall [13]. It also allows for easy runoff of fertilizers and other applied chemicals.
+                        <img class="para-img" src="./images/causes-land-2.jpg" style="float: left;" alt="pollution">
+                    The change in chemical composition of streams and rivers from this chemical runoff upsets the natural balance of life causing other, often foreseeable but unanticipated problems. The damage wrought from fertilizer runoff from agriculture is well-documented.  
+                   
+                    It brings excess nitrogen to the water environment, creates algal blooms and consequent dead zones in the water where nothing can live.  
+
+                    A dead zone at the mouth of the Mississippi River from fertilizer runoff primarily from corn fields along its banks, covers more than 7700 square miles (20,000 sq km) in the Gulf of Mexico during the summer months. The runoff is not only continuing, unabated, but is expected to increase as the demand for corn to feed cattle and as a biofuel increases [15].
+                        
+                    The herbicide atrazine mentioned above has been found to cause changes in the reproductive systems in frogs, turning male frogs female..   
+                 </p>
+
+                    <h2>3. Industry</h2>
+                    <p class="para">Industrial activities often release toxic and material wastes onto the land or into the atmosphere where they settle onto the land. While most developed countries now regulate land 
+                        <img class="para-img" src="./images/causes-land-3.jpg" style="float: right;" alt="pollution">dumping and emissions, the regulations balance the costs to industry and do not necessarily adequately safeguard the integrity of our biosphere or more specifically, human health. 
+
+                        Too, many developing countries have little or no enforced regulation. 
+                       
+                        For example, although cassava is the third most consumed carbohydrate in the world, the practice of dumping its toxic byproducts, that is, hazardous solid and liquid residues directly onto the land, continues in Nigeria today. 
+                        A recent study of the effects on the soil of dumping cassava showed many deleterious effects to the previously arable land. The heavy metals bring about harmful changes in the microbiological, mineral and physiochemical composition of soils around the mills 
+                     </p>
+
+                    <h2>4. Mining</h2>
+                    <p class="para">Forty percent of the world's mines are strip mines. This is where the earth is either scraped or blasted to get to the mineral seams. The balance of mining is done underground, where pillars support the earth while work is performed underground and at the end, removed or simply left to collapse.
+
+                        Strip mines obviously remove the topsoil and contribute to erosion. In many developed countries, regulations now require land reclamation when the project is over.  <img class="para-img" src="./images/causes-land-4.jpg" style="float: left;" alt="pollution">
+                        
+                        A 2004 study showed that China's overall land reclamation rate to its strip mining operations was only about ten to twelve percent. And a problem when the reclamation is attempted is that the land has become so degraded it often cannot support newly seeded growth. Studies in US western states showed success rates of new seedlings taking purchase between ten and thirty percent .
+                       
+                        Underground mining brings a lot of waste earth and rocks to the surface where it is left. This waste often becomes toxic when exposed to air and water. 
+                        
+                        Another effect on land pollution are coal fires.  Underground coal fires, a significant problem in many countries can burn for centuries, emitting toxic gases, among them mercury, arsenic, fluorine and selenium, as well as emitting fly ash through its vents and fissures which then settle on the land. </p>
+
+                    <h2>5. Landfills and waste</h2>
+                    <p class="para">The construction of landfills is generally overseen by a governmental agency responsible for solid waste disposal and involve compliance with regulations to safeguard the leaching of  <img class="para-img" src="./images/causes-land-5.webp" style="float: right;" alt="pollution">their contents into the soil.  However, the clay or plastic liners often fail over time or of course, when compromised by construction breaking through them. 
+                       
+                        One of the most famous environmental violations in the United States, Love Canal, though hardly an isolated incident, concerned a breached landfill containing toxic waste that caused miscarriages, nervous disorders, cancers and an unusually high number of human birth defects and deformities before being discovered.  The Love Canal incident was a major impetus for passage of the Superfund Act, a law imposing strict liability, that is responsibility that cannot be bargained away from injury and damages arising from exposure to the spilled toxic contents. </p>
+
+                   
+            </div>
+               <button><span><a href="index-13.html">NEXT PAGE</a></span></button>
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h1 id="footer-heading" >LINKS OF ALL PAGES</h1>
+        <div class="footer-content">
+            <div class="footer-link" >
+                
+                <a href="index.html">page 1</a></button>
+                <a href="index-2.html">page 2</a>
+                <a href="index-3.html">page 3</a>
+                <a href="index-4.html">page 4</a>
+                <a href="index-5.html">page 5</a>
+                <a href="index-6.html">page 6</a>
+                <a href="index-7.html">page 7</a>
+                
+            </div>
+            <div class="footer-link">
+                <a href="index-8.html">page 8</a>
+                <a href="index-9.html">page 9</a>
+                <a href="index-10.html">page 10</a>
+                <a href="index-11.html">page 11</a>
+                <a href="index-12.html">page 12</a>
+                <a href="index-13.html">page 13</a>
+                <a href="index-14.html">page 14</a>
+
+            </div>
+            <div class="footer-link">
+                <a href="index-15.html">page 15</a>
+                <a href="index-16.html">page 16</a>
+                <a href="index-17.html">page 17</a>
+                <a href="index-18.html">page 18</a>
+                <a href="index-19.html">page 19</a>
+                <a href="index-20.html">page 20</a>
+                <a href="index-21.html">page 21</a>
+            </div>
+    
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

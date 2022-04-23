@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pollution</title>
+    <style>
+        :root{
+            --primary-color:#ff0099;
+            --para-color:#493240;
+            --gradient:linear-gradient(to right, #ff0099, #493240);
+            --highlight-color:#750046;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        /* button{
+            border: none;
+           /*background: #ff0099;*/  
+             
+           /* padding: 12px 24px;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+
+        } */
+        .heading{
+            text-align:center;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+        .container{
+            padding: 20px 70px;
+        }
+        .para{
+            margin-top: 20px;
+            color:var(--para-color);
+            line-height: 24px;
+            text-align: justify;
+        }
+        .bg-image{
+            background: url(./images/bg-pollution.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height:50vh;
+        }
+        .para-img{
+            float: right;
+            margin: 10px 15px;
+            width: 300px;
+        }
+
+        @media only screen and (max-width: 414px) {
+            .bg-image{
+                background-size: cover;
+                background-position: left;
+               
+            }
+            .container{
+            padding: 5px 50px;
+        }
+        .para-img{
+            width: 100%;
+            height: 100%;
+            margin:10px auto;
+        }
+
+        }
+
+        button {
+  border-radius: 4px;
+  background:var(--gradient) ;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+
+/* fooooottterrrrrr */
+
+a{
+            text-decoration: none;
+            display: inline-block;
+            color:white;
+            font-size: 27px;
+            line-height: 1.5;
+            text-decoration: none;
+            
+        }
+        
+        .footer{
+            background-color: #3d4551;
+            color: #fff;
+            padding: 60px 0; 
+            /* height: 90vh; */
+
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+        }
+        #footer-heading{
+            text-align: center;
+            color: rgb(218, 213, 213);
+        }
+        .footer-link{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .footer-link a{
+          
+           box-shadow: inset 0 0 0 0 #54b3d6;
+           color: var(--primary-color);
+           padding: 4px 1.25rem;
+           margin: 5px -.25rem;
+           transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        }
+        .footer-link a:hover{
+            color: #fff;
+            box-shadow: inset 200px 0 0 0 var(--highlight-color);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="bg-image"></div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="heading">POLLUTION</h1><hr>
+            <img class="para-img" src="./images/pollution.jpg" alt="pollution">
+            <p class="para"> Pollution is the introduction of harmful materials into the environment. These harmful materials are called <strong style="color:var(--highlight-color);">pollutants</strong> . Pollutants can be natural, such as volcanic ash. They can also be created by human activity, such as trash or runoff produced by factories. Pollutants damage the quality of air, water, and land. <br><br>
+
+                Many things that are useful to people produce pollution. Cars spew pollutants from their exhaust pipes. Burning coal to create electricity pollutes the air. Industries and homes generate garbage and sewage that can pollute the land and water. <strong style="color:var(--highlight-color);">Pesticides—chemical poisons</strong> used to kill weeds and insects—seep into waterways and harm wildlife.
+                
+                All living things—from one-celled <strong style="color:var(--highlight-color);">microbes</strong> to blue whales—depend on Earth's supply of air and water. When these resources are polluted, all forms of life are threatened. <br><br>
+                
+                Pollution is a global problem. Although urban areas are usually more polluted than the countryside, pollution can spread to remote places where no people live. For example, pesticides and other chemicals have been found in the Antarctic ice sheet. In the middle of the northern Pacific Ocean, a huge collection of microscopic plastic particles forms what is known as the <strong style="color:var(--highlight-color);">Great Pacific Garbage Patch</strong>. <br><br>
+                
+                Air and water currents carry pollution. Ocean currents and migrating fish carry marine pollutants far and wide. Winds can pick up radioactive material accidentally released from a <strong style="color:var(--highlight-color);"> nuclear reactor</strong> and scatter it around the world. Smoke from a factory in one country drifts into another country. <br><br>
+                
+                In the past, visitors to Big Bend National Park in the U.S. state of Texas could see 290 kilometers (180 miles) across the vast landscape. Now, coal-burning power plants in Texas and the neighboring state of Chihuahua, Mexico have spewed so much pollution into the air that visitors to Big Bend can sometimes see only 50 kilometers (30 miles). <br><br>
+                          
+                </p>
+               <button><span><a href="index-2.html">NEXT PAGE</a></span></button>
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h1 id="footer-heading" >LINKS OF ALL PAGES</h1>
+        <div class="footer-content">
+            <div class="footer-link" >
+                
+                <a href="index-1.html">page 1</a></button>
+                <a href="index-2.html">page 2</a>
+                <a href="index-3.html">page 3</a>
+                <a href="index-4.html">page 4</a>
+                <a href="index-5.html">page 5</a>
+                <a href="index-6.html">page 6</a>
+                <a href="index-7.html">page 7</a>
+                
+            </div>
+            <div class="footer-link">
+                <a href="index-8.html">page 8</a>
+                <a href="index-9.html">page 9</a>
+                <a href="index-10.html">page 10</a>
+                <a href="index-11.html">page 11</a>
+                <a href="index-12.html">page 12</a>
+                <a href="index-13.html">page 13</a>
+                <a href="index-14.html">page 14</a>
+
+            </div>
+            <div class="footer-link">
+                <a href="index-15.html">page 15</a>
+                <a href="index-16.html">page 16</a>
+                <a href="index-17.html">page 17</a>
+                <a href="index-18.html">page 18</a>
+                <a href="index-19.html">page 19</a>
+                <a href="index-20.html">page 20</a>
+                <a href="index-21.html">page 21</a>
+            </div>
+    
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

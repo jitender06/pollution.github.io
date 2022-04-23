@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pollution</title>
+    <style>
+        :root{
+            --primary-color:#ff0099;
+            --para-color:#493240;
+            --gradient:linear-gradient(to right, #ff0099, #493240);
+            --highlight-color:#750046;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        /* button{
+            border: none;
+           /*background: #ff0099;*/  
+             
+           /* padding: 12px 24px;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+
+        } */
+        .heading{
+            text-align:center;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+        h2{
+            margin-top: 35px;
+        }
+        .container{
+            padding: 20px 70px;
+        }
+        .para{
+            margin-top: 10px;
+            color:var(--para-color);
+            line-height: 24px;
+            text-align: justify;
+        }
+        .bg-image{
+            background: url(./images/bg-causes-water.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height:50vh;
+        }
+        .para-img{
+            float: right;
+            margin: 10px 15px;
+            width: 300px;
+        }
+
+        @media only screen and (max-width: 414px) {
+            .bg-image{
+                background-size: cover;
+                background-position: left;
+               
+            }
+            .container{
+            padding: 5px 50px;
+        }
+        .para-img{
+            width: 100%;
+            height: 100%;
+            margin:10px 20px;
+        }
+
+        }
+
+    
+
+/* fooooottterrrrrr */
+
+a{
+            text-decoration: none;
+            display: inline-block;
+            color:white;
+            font-size: 27px;
+            line-height: 1.5;
+            text-decoration: none;
+            
+        }
+        
+        .footer{
+            background-color: #3d4551;
+            color: #fff;
+            padding: 60px 0; 
+            /* height: 90vh; */
+
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+        }
+        #footer-heading{
+            text-align: center;
+            color: rgb(218, 213, 213);
+        }
+        .footer-link{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .footer-link a{
+          
+           box-shadow: inset 0 0 0 0 #54b3d6;
+           color: var(--primary-color);
+           padding: 4px 1.25rem;
+           margin: 5px -.25rem;
+           transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        }
+        .footer-link a:hover{
+            color: #fff;
+            box-shadow: inset 200px 0 0 0 var(--highlight-color);
+        }
+
+        button {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  background:var(--gradient) ;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}   
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="bg-image"></div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="heading">CAUSES OF WATER POLLUTION</h1><hr>
+           
+            <div>
+                <p class="para">
+                    Water is one of the most important elements on Earth when it comes to sustaining life. Unfortunately, it is also extremely susceptible to pollution. This is largely because water is a universal solvent that can dissolve many substances. While this is a wonderful quality that we take advantage of for everyday tasks such as cooking, cleaning and taking medication, it is also the exact quality that causes water to become polluted so easily. <br> <br> There are many causes of water pollution. Below, we will focus on seven of the major ways that water can become polluted.
+                </p> 
+                <h2>1. Industrial Waste  <img class="para-img" src="./images/causes-water-1.jpg" alt="pollution" style="float: right; width: 200px;"></h2>
+                <p class="para">Industries and industrial sites across the world are a major contributor to water pollution. Many industrial sites produce waste in the form of toxic chemicals and pollutants, and though regulated, some still do not have proper waste management systems in place. In those rare cases, industrial waste is dumped into nearby freshwater systems. When industrial waste is not treated properly (or worse, not treated at all), it can very easily pollute the freshwater systems that it comes into contact with. 
+
+                    Industrial waste from agricultural sites, mines and manufacturing plants can make its way into rivers, streams and other bodies of water that lead directly to the sea. The toxic chemicals in the waste produced by these industries not only have the potential to make water unsafe for human consumption, they can also cause the temperature in freshwater systems to change, making them dangerous for many water dwelling organisms.</p>
+                    
+                    <h2>2. Marine Dumping <img class="para-img" src="./images/causes-water-2.jpg" alt="pollution" style="float: left; width: 200px;"> </h2>
+                    <p class="para">The process of marine dumping is exactly what it sounds like, dumping garbage into the waters of the ocean. It might seem crazy, but household garbage is still collected and dumped into oceans by many countries across the world. Most of these items can take anywhere from two to 200 years to decompose completely. </p>
+
+                    <h2>3. Sewage and Wastewater <img class="para-img" src="./images/causes-water-3.jpg" alt="pollution" style="float: right; width: 200px;"></h2>
+                    <p class="para">Harmful chemicals, bacteria and pathogens can be found in sewage and wastewater even when it's been treated. Sewage and wastewater from each household is released into the sea with fresh water. The pathogens and bacteria found in that wastewater breed disease, and therefore are a cause of health-related issues in humans and animals alike. </p>
+
+                    <h2>4. Oil Leaks and Spills <img class="para-img" src="./images/causes-water-4.jpg" alt="pollution" style="float: left; width: 200px;"></h2>
+                    <p class="para">The age-old phrase “like water and oil” is used when describing two things that do not mix easily or at all. Just as the saying states, water and oil do not mix, and oil does not dissolve in water. Large oil spills and oil leaks, while often accidental, are a major cause of water pollution. Leaks and spills often are caused by oil drilling operations in the ocean or ships that transport oil.  wildlife. </p>
+
+                    <h2>5. Agriculture <img class="para-img" src="./images/causes-water-5.jpg" alt="pollution" style="float: right; width: 200px;"></h2>
+                    <p class="para">In order to protect their crops from bacteria and insects, farmers often use chemicals and pesticides. When these substances seep into the groundwater, they can harm animals, plants and humans. Additionally, when it rains, the chemicals mix with rainwater, which then flows into rivers and streams that filter into the ocean, causing further water pollution. </p>
+
+                    <h2>6. Global Warming <img class="para-img" src="./images/causes-water-6.jpg" alt="pollution" style="float: left; width: 200px;"></h2>
+                    <p class="para">Rising temperatures due to global warming are a major concern in terms of water pollution. Global warming causes water temperatures to rise, which can kill water-dwelling animals. When large die-offs occur, it further pollutes the water supply, exacerbating the issue. 
+
+                        There are many everyday ways you can help reduce global warming, which will in turn help lower water pollution. These methods include recycling, carpooling and using CFL bulbs in your home.</p>
+
+                    <h2>7. Radioactive Waste <img class="para-img" src="./images/causes-water-7.jpeg" alt="pollution" style="float: right; width: 200px;"></h2>
+                    <p class="para">Radioactive waste from facilities that create nuclear energy can be extremely hazardous to the environment and must be disposed of properly. This is because uranium, the element used in the creation of nuclear energy, is a highly toxic chemical. 
+
+                        Unfortunately, accidents still occur at these facilities, and toxic waste is released into the environment. The coal and gas industries are, in many ways, no better. This is one of the major impetuses behind the development of alternative, clean sources of energy, including solar and wind.</p>
+
+                   
+            </div>
+               <button><span><a href="index-9.html">NEXT PAGE</a></span></button>
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h1 id="footer-heading" >LINKS OF ALL PAGES</h1>
+        <div class="footer-content">
+            <div class="footer-link" >
+                
+                <a href="index.html">page 1</a></button>
+                <a href="index-2.html">page 2</a>
+                <a href="index-3.html">page 3</a>
+                <a href="index-4.html">page 4</a>
+                <a href="index-5.html">page 5</a>
+                <a href="index-6.html">page 6</a>
+                <a href="index-7.html">page 7</a>
+                
+            </div>
+            <div class="footer-link">
+                <a href="index-8.html">page 8</a>
+                <a href="index-9.html">page 9</a>
+                <a href="index-10.html">page 10</a>
+                <a href="index-11.html">page 11</a>
+                <a href="index-12.html">page 12</a>
+                <a href="index-13.html">page 13</a>
+                <a href="index-14.html">page 14</a>
+
+            </div>
+            <div class="footer-link">
+                <a href="index-15.html">page 15</a>
+                <a href="index-16.html">page 16</a>
+                <a href="index-17.html">page 17</a>
+                <a href="index-18.html">page 18</a>
+                <a href="index-19.html">page 19</a>
+                <a href="index-20.html">page 20</a>
+                <a href="index-21.html">page 21</a>
+            </div>
+    
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

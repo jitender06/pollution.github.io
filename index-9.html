@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAND POLLUTIONSS</title>
+    <style>
+        :root{
+            --primary-color:#ff0099;
+            --para-color:#493240;
+            --gradient:linear-gradient(to right, #ff0099, #493240);
+            --highlight-color:#750046;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        
+        .heading{
+            text-align:center;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+        .container{
+            padding: 20px 70px;
+        }
+        .para{
+            margin-top: 20px;
+            color:var(--para-color);
+            line-height: 24px;
+            text-align: justify;
+        }
+        .bg-image{
+            background: url(./images/bg-land.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height:50vh;
+        }
+        .para-img{
+            float: right;
+            margin: 10px 15px;
+            width: 300px;
+        }
+        @media only screen and (max-width: 414px) {
+            .bg-image{
+                background-size: cover;
+                background-position: left;
+               
+            }
+            .container{
+            padding: 5px 50px;
+        }
+        .para-img{
+            width: 100%;
+            height: 100%;
+            margin:10px auto;
+        }
+
+        }
+
+        /* fooooottterrrrrr */
+
+        a{
+            text-decoration: none;
+            display: inline-block;
+            color:white;
+            font-size: 27px;
+            line-height: 1.5;
+            text-decoration: none;
+            
+        }
+        
+        .footer{
+            background-color: #3d4551;
+            color: #fff;
+            padding: 60px 0; 
+            /* height: 90vh; */
+
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+        }
+        #footer-heading{
+            text-align: center;
+            color: rgb(218, 213, 213);
+        }
+        .footer-link{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .footer-link a{
+          
+           box-shadow: inset 0 0 0 0 #54b3d6;
+           color: var(--primary-color);
+           padding: 4px 1.25rem;
+           margin: 5px -.25rem;
+           transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        }
+        .footer-link a:hover{
+            color: #fff;
+            box-shadow: inset 200px 0 0 0 var(--highlight-color);
+        }
+
+        button {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  background:var(--gradient) ;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}   
+
+
+       
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="bg-image"></div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="heading">LAND POLLUTION</h1><hr> 
+            <img class="para-img" src="./images/land-pollution1.jpg" alt="pollution">
+            <p class="para"> Many of the same pollutants that foul the water also harm the land. Mining sometimes leaves the soil contaminated with dangerous chemicals.
+
+                Pesticides and fertilizers from agricultural fields are blown by the wind. They can harm plants, animals, and sometimes people. Some fruits and vegetables absorb the pesticides that help them grow. When people consume the fruits and vegetables, the pesticides enter their bodies. Some pesticides can cause cancer and other diseases.
+                
+                
+                A pesticide called DDT (dichlorodiphenyltrichloroethane) was once commonly used to kill insects, especially mosquitoes. In many parts of the world, mosquitoes carry a disease called malaria, which kills a million people every year. Swiss chemist Paul Hermann Muller was awarded the Nobel Prize for his understanding of how DDT can control insects and other pests. DDT is responsible for reducing malaria in places such as Taiwan and Sri Lanka.
+                <br><br>
+                In 1962, American biologist Rachel Carson wrote a book called Silent Spring, which discussed the dangers of DDT. She argued that it could contribute to cancer in humans. She also explained how it was destroying bird eggs, which caused the number of bald eagles, brown pelicans, and ospreys to drop. In 1972, the United States banned the use of DDT. Many other countries also banned it. But DDT didn't disappear entirely. Today, many governments support the use of DDT because it remains the most effective way to combat malaria.
+                
+                Trash is another form of land pollution. Around the world, paper, cans, glass jars, plastic products, and junked cars and appliances mar the landscape. Litter makes it difficult for plants and other producers in the food web to create nutrients. Animals can die if they mistakenly eat plastic.
+                <img class="para-img" style="float: left;" src="./images/land-pollution2.jpg" alt="pollution">
+                Garbage often contains dangerous pollutants such as oils, chemicals, and ink. These pollutants can leech into the soil and harm plants, animals, and people.
+                <br><br>
+                Inefficient garbage collection systems contribute to land pollution. Often, the garbage is picked up and brought to a dump, or landfill. Garbage is buried in landfills. Sometimes, communities produce so much garbage that their landfills are filling up. They are running out of places to dump their trash.
+                
+                A massive landfill near Quezon City, Philippines, was the site of a land pollution tragedy in 2000. Hundreds of people lived on the slopes of the Quezon City landfill. These people made their living from recycling and selling items found in the landfill. However, the landfill was not secure. Heavy rains caused a trash landslide, killing 218 people.
+                
+                Sometimes, landfills are not completely sealed off from the land around them. Pollutants from the landfill leak into the earth in which they are buried. Plants that grow in the earth may be contaminated, and the herbivores that eat the plants also become contaminated. So do the predators that consume the herbivores. This process, where a chemical builds up in each level of the food web, is called bioaccumulation.
+                Pollutants leaked from landfills also leak into local groundwater supplies. There, the aquatic food web (from microscopic algae to fish to predators such as sharks or eagles) can suffer from bioaccumulation of toxic chemicals.
+                <br><br>
+                Some communities do not have adequate garbage collection systems, and trash lines the side of roads. In other places, garbage washes up on beaches. Kamilo Beach, in the U.S. state of Hawaii, is littered with plastic bags and bottles carried in by the tide. The trash is dangerous to ocean life and reduces economic activity in the area. Tourism is Hawai's largest industry. Polluted beaches discourage tourists from investing in the area's hotels, restaurants, and recreational activities.
+                
+                Some cities incinerate, or burn, their garbage. Incinerating trash gets rid of it, but it can release dangerous heavy metals and chemicals into the air. So while trash incinerators can help with the problem of land pollution, they sometimes add to the problem of air pollution.
+                
+                         </p>
+                         <button><span><a href="index-10.html">NEXT PAGE</a></span></button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h1 id="footer-heading" >LINKS OF ALL PAGES</h1>
+        <div class="footer-content">
+            <div class="footer-link" >
+                
+                <a href="index.html">page 1</a></button>
+                <a href="index-2.html">page 2</a>
+                <a href="index-3.html">page 3</a>
+                <a href="index-4.html">page 4</a>
+                <a href="index-5.html">page 5</a>
+                <a href="index-6.html">page 6</a>
+                <a href="index-7.html">page 7</a>
+                
+            </div>
+            <div class="footer-link">
+                <a href="index-8.html">page 8</a>
+                <a href="index-9.html">page 9</a>
+                <a href="index-10.html">page 10</a>
+                <a href="index-11.html">page 11</a>
+                <a href="index-12.html">page 12</a>
+                <a href="index-13.html">page 13</a>
+                <a href="index-14.html">page 14</a>
+
+            </div>
+            <div class="footer-link">
+                <a href="index-15.html">page 15</a>
+                <a href="index-16.html">page 16</a>
+                <a href="index-17.html">page 17</a>
+                <a href="index-18.html">page 18</a>
+                <a href="index-19.html">page 19</a>
+                <a href="index-20.html">page 20</a>
+                <a href="index-21.html">page 21</a>
+            </div>
+    
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
